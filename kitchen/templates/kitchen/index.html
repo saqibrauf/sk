@@ -1,0 +1,13 @@
+{% extends 'fullwidth.html' %}
+{% load static %}
+{% block 'body' %}
+<div class="hero is-black is-fullheight bg-image" style="min-height: calc(100vh - 5rem);">
+	<div class="hero-body">
+		<div class="container content has-text-centered">
+			<img src="{% static 'images/sk.png' %}" alt="Safia'z Kitchen" style="max-width: 256px; height: auto;">
+			<h2 class="is-size-3 has-text-white">Homemade Food<br><small>At Your Doorstep</small></h2>
+			<p><a class="button is-dark is-large" href="tel:03221234567">CALL NOW</a></p>
+		</div>
+	</div>
+</div>
+{% endblock %}
